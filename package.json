@@ -4,6 +4,9 @@
   "main": "index.js",
   "author": "Denis <dineresc@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "dev": "ts-node-dev --respawn --transpileOnly --ignore-watch node_modules --no-notify src/server.ts"
+  },
   "devDependencies": {
     "@types/express": "^4.17.11",
     "ts-node-dev": "^1.1.1",
